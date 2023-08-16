@@ -1,0 +1,4 @@
+passo 1 = definir o valor total a somar com os itens e extras.
+passo 2 = definir os descontos dependo do método de pagamento.
+passo 3 = definir os erros por falta de itens ou método de pagamento inválidos,
+além de não conter o número de intens
