@@ -52,11 +52,8 @@ class CaixaDaLanchonete {
                 return 'Quantidade inválida!';
             }
         }
-        for (itens of itensCarrinho) {
-            if (itens.includes('cafe') && itens.includes('cafe')) {
-                return 'Item extra não pode ser pedido sem o principal'
-            }
-        }
+
+
 
         valorTotal = valorItensPrincipais + valorItensExtras;
         if (metodoDePagamento === 'dinheiro') {
